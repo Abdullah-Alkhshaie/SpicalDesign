@@ -191,6 +191,12 @@ body {
   top: 0;
   z-index: 1;
 }
+@media (max-width: 575px) {
+  .landing-page .overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
 .landing-page .container {
   position: relative;
   z-index: 1000;
@@ -458,6 +464,7 @@ body {
 @media (max-width: 575px) {
   .popup-box {
    width: 95%;
+  }
 }
 .popup-box img {
   max-width: 100%;
