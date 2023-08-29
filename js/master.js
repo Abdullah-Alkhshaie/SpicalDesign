@@ -120,7 +120,7 @@ function randomizeImgs() {
       let randomImgs = Math.floor(Math.random() * imgsArray.length);
       LandingPage.style.backgroundImage =
         'url("imgs/' + imgsArray[randomImgs] + '")';
-    }, 1000);
+    }, 10000);
   } else {
     clearInterval(backgroundInterval);
   }
