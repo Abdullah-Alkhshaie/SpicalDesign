@@ -317,3 +317,4 @@ document.addEventListener("click", (e) => {
 links.onclick = function (e) {
   e.stopPropagation();
 };
+// addited
