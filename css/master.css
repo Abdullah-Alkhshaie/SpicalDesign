@@ -28,6 +28,7 @@ body {
 
 .setting-box.open {
   left: 0;
+  z-index: 1005;
 }
 .setting-box .toggle-setting {
   position: absolute;
