@@ -455,6 +455,10 @@ body {
   padding: 20px;
   z-index: 1001;
 }
+@media (max-width: 575px) {
+  .popup-box {
+   width: 95%;
+}
 .popup-box img {
   max-width: 100%;
 }
@@ -755,7 +759,7 @@ body {
 
 .contact {
   min-height: 600px;
-  background-image: url(/imgs/contact.png);
+  background-image: url(imgs/contact.png);
   /* background-size: cover; */
   padding: 80px 0;
   position: relative;
